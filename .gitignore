@@ -1,0 +1,54 @@
+# === NODE MODULES ===
+node_modules/
+
+# === ENV FILES (secrets) ===
+.env
+.env.local
+.env.development
+.env.production
+frontend/.env
+backend/.env
+
+# === BUILD & DIST FILES ===
+dist/
+build/
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === LOG FILES ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === IDE & EDITOR JUNK ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === OS CRAP ===
+*.swp
+*.tmp
+*.bak
+
+# === GIT BACKUPS ===
+*.orig
+
+# === COVERAGE & TESTING ===
+coverage/
+.nyc_output/
+
+# === FRONTEND VITE / REACT ===
+frontend/.vite/
+frontend/.next/
+frontend/.cache/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# === BACKEND EXPRESS ===
+backend/node_modules/
+backend/dist/
